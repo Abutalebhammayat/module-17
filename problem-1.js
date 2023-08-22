@@ -1,10 +1,10 @@
 var momGaveHimMoney = 1000;
-var applescost = 300;
-var orangescost = 600 ;
+var applescost = 400;
+var orangescost = 300 ;
 
-var motKorco = applescost + orangescost;
+var totalPrice = applescost + orangescost;
  
-console.log (motKorco)
+console.log (totalPrice)
 
-var bakiTaka = momGaveHimMoney - motKorco;
+var bakiTaka = momGaveHimMoney - totalPrice;
 console.log (bakiTaka)
